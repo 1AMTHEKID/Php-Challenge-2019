@@ -1,0 +1,56 @@
+.images8 {
+    width: 15%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+/* Grid area's*/
+
+/*.article1 {*/
+    /*grid-area: article1;*/
+/*}*/
+
+/*.article2 {*/
+    /*grid-area: article2;*/
+/*}*/
+
+/*.article3 {*/
+    /*grid-area: article3;*/
+/*}*/
+
+/*.article4 {*/
+    /*grid-area: article4;*/
+/*}*/
+
+/*.article5 {*/
+    /*grid-area: article5;*/
+/*}*/
+
+/*.article6 {*/
+    /*grid-area: article6;*/
+/*}*/
+
+/*.article7 {*/
+    /*grid-area: article7;*/
+/*}*/
+
+/*.article8 {*/
+    /*grid-area: article8;*/
+/*}*/
+
+/*.article9 {*/
+    /*grid-area: article9;*/
+/*}*/
+
+/*!* Grid and query's *!*/
+
+/*.wrapper-keuze8 {*/
+    /*display: grid;*/
+    /*grid-column-gap: 2rem;*/
+    /*grid-row-gap: 1rem;*/
+    /*grid-template-areas:*/
+            /*"article1 article2 article3"*/
+            /*"article4 article5 article6"*/
+            /*"article7 article8 article9";*/
+/*}*/
