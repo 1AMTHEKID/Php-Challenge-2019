@@ -63,7 +63,7 @@
                 </div>
                 <div class="text8">
                     <h3><b>Amsterdam</b></h3>
-                    <p>665 woningen</p>
+                    <p>420 woningen</p>
                     <p>Gemiddeld €1986</p>
                 </div>
             </div>
