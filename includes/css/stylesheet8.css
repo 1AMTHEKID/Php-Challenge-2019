@@ -1,56 +1,107 @@
 .images8 {
-    width: 15%;
+    width: 155px;
     height: auto;
     margin-bottom: 1rem;
     margin-right: 1rem;
 }
 
-/* Grid area's*/
+.checkmark {
+    width: 35px;
+    height: auto;
+}
 
-/*.article1 {*/
-    /*grid-area: article1;*/
-/*}*/
+.blue-bar8 {
+    background-color: #3073B7;
+    height: 65px;
+    width: auto;
+    margin-bottom: 4rem;
+}
 
-/*.article2 {*/
-    /*grid-area: article2;*/
-/*}*/
+/* Grid-areas*/
 
-/*.article3 {*/
-    /*grid-area: article3;*/
-/*}*/
+.header8 {
+    grid-area: header8;
+}
 
-/*.article4 {*/
-    /*grid-area: article4;*/
-/*}*/
+.left8 {
+    grid-area: left8;
+}
 
-/*.article5 {*/
-    /*grid-area: article5;*/
-/*}*/
+.middle8 {
+    grid-area: middle8;
+}
 
-/*.article6 {*/
-    /*grid-area: article6;*/
-/*}*/
+.right8 {
+    grid-area: right8;
+}
 
-/*.article7 {*/
-    /*grid-area: article7;*/
-/*}*/
+.bigimage8 {
+    grid-area: bigimage8;
+}
 
-/*.article8 {*/
-    /*grid-area: article8;*/
-/*}*/
+.text8 {
+    grid-area: text8;
+    text-align: center;
+}
 
-/*.article9 {*/
-    /*grid-area: article9;*/
-/*}*/
+.left-text8 {
+    grid-area: left-text8;
+    margin-top: 1rem;
+}
 
-/*!* Grid and query's *!*/
+.middle-text8 {
+    grid-area: middle-text8;
+    margin-top: 1rem;
+}
 
-/*.wrapper-keuze8 {*/
-    /*display: grid;*/
-    /*grid-column-gap: 2rem;*/
-    /*grid-row-gap: 1rem;*/
-    /*grid-template-areas:*/
-            /*"article1 article2 article3"*/
-            /*"article4 article5 article6"*/
-            /*"article7 article8 article9";*/
-/*}*/
+.right-text8 {
+    grid-area: right-text8;
+    margin-top: 1rem;
+}
+
+.checkertext8 {
+    grid-area: checkertext8;
+}
+
+.checker8 {
+    grid-area: checker8;
+}
+
+/* Grids */
+
+.wrapper8 {
+    display: grid;
+    grid-column-gap: 3.5rem;
+    grid-row-gap: 1rem;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas:
+            "header8 header8 header8"
+            "left8 middle8 right8";
+}
+
+.information8 {
+    display: grid;
+    grid-template-areas:
+            "bigimage8 text8";
+}
+
+.navigation8 {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 125px;
+    max-width: 900px;
+    grid-template-areas:
+            "left-text8 middle-text8 right-text8";
+}
+
+.navigation-text8 {
+    display: grid;
+    max-width: 210px;
+    text-align: left;
+    grid-template-areas:
+            "checker8 checkertext8";
+
+}
